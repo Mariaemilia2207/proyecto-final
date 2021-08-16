@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../scss/style.css">
+    <link rel="stylesheet" href="../css/estudio.css">
+    <script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anónimo"> </script>
+    <meta name="description"
+        content="¿Tenés alguna consulta? Queremos asesorarte, comunicate con estudio Tarin & asociados">
+    <meta name="keywords" content="consulta, contactar, duda, pregunta, mensaje, llamado, dirección,teléfono">
+</head>
+
+<body class="cuerpoInicio">
+
+    <header class="header">
+        <img class="header__logo" src="../assets/img/logo.jpeg" alt="Logo">
+        <h1 class="header__titulo">CONTACTO</h1>
+        <div class="header__nav" id="myTopnav">
+            <a class="header__navMenu--texto" href="../index.html">INICIO</a>
+            <a class="header__navMenu--texto" href="./Antecedentes.html">ANTECEDENTES</a>
+            <a class="header__navMenu--texto" href="./Areas.html">AREA DE PRACTICA</a>
+            <a class="header__navMenu--texto" href="./Clientes.html">CLIENTES</a>
+            <a class="header__navMenu--texto" href="./Contacto.html">CONTACTO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script>function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "header__nav") {
+                    x.className += " responsive";
+                }
+                else {
+                    x.className = "header__nav";
+                }
+            }</script>
+    </header>
+
+    <section class="section">
+        <div class="section__mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.1285251700615!2d-68.86362028525589!3d-32.8947699765931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09a8893dc029%3A0xd32a3f106e5dc382!2sEmilio%20Jofr%C3%A9%20473%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1628948359861!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <p class="section__parrafo">Contactanos
+            ¿Tenés alguna duda? ¡Queremos asesorarte!
+            Completá el formulario y dejanos tu consulta. Te contestaremos a la brevedad.</p>
+    </section>
+
+    <div class="imagenPrincipal">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <legend class="text-center legend">Contact us</legend>
+
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i
+                                            class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="fname" name="name" type="text" placeholder="First Name"
+                                            class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i
+                                            class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="lname" name="name" type="text" placeholder="Last Name"
+                                            class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i
+                                            class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="email" name="email" type="text" placeholder="Email Address"
+                                            class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i
+                                            class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="phone" name="phone" type="text" placeholder="Phone"
+                                            class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i
+                                            class="fa fa-pencil-square-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <textarea class="form-control" id="message" name="message"
+                                            placeholder="Enter your message for us here. We will get back to you within 2 business days."
+                                            rows="7"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <img class="footer__logo" src="../assets/img/logo.jpeg" alt="Logo">
+        <div class="footer__redes">
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+        </div>
+        <p class="footer__copy">© Copyright 2012 - 2021 | Avada Theme by Theme Fusion | All Rights Reserved | Powered by
+            WordPress</p>
+        <ul class="datos__contacto">
+            <li>DIRECCIÓN: Calle Emilio Jofré 473, Ciudad, Mendoza</li>
+            <li>CORREO ELECTRÓNICO: egarcia@itcsa.net</li>
+            <li>TELÉFONO: 4201425</li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

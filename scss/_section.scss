@@ -1,0 +1,43 @@
+.section__titulo2 {
+    text-transform: uppercase;
+    margin: 30px 5px;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(75, 70, 70);
+  }
+  .section__titulo3 {
+    text-transform: uppercase;
+    margin: 30px 5px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(75, 70, 70);
+  }
+  label {
+    color: seagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  section {
+    padding: 40px;
+    background-color: grey;
+  }
+  .section__mapa {
+    margin-bottom: 2rem;
+  }
+  .section__parrafo {
+    text-transform: initial;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+    text-align: left;
+  }
+  .integrantesEstudio {
+    text-transform: initial;
+    margin: 30px 5px;
+    list-style-type: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+  }
+  
