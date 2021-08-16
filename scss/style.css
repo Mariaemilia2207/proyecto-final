@@ -161,6 +161,15 @@ section {
   text-align: left;
 }
 
+.section__parrafoAreas {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.section__cards {
+  background-color: #f0f06a;
+}
+
 .integrantesEstudio {
   text-transform: initial;
   margin: 30px 5px;
