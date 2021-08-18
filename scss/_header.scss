@@ -77,6 +77,22 @@
     font-style: normal;
     font-size: 50px;
   }
+  .header__parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 5px;
+    font-family: cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+  }
   .cuerpoInicio {
     background-color: #ffebcdbe;
     display: flex;

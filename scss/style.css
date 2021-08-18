@@ -106,6 +106,32 @@
   font-size: 50px;
 }
 
+.header__parrafo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 5px;
+  font-family: cursive;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+}
+
 .cuerpoInicio {
   background-color: #ffebcdbe;
   display: -webkit-box;
@@ -167,7 +193,7 @@ section {
 }
 
 .section__cards {
-  background-color: #f0f06a;
+  background-color: #dad6d6;
 }
 
 .integrantesEstudio {
@@ -289,11 +315,11 @@ section {
   margin: 30px 5px;
   list-style-type: initial;
   text-align: inherit;
-  color: #dddd25;
+  color: whitesmoke;
 }
 
 .footer .footer i {
-  color: #dddd25;
+  color: coral;
   margin: 0.2rem;
   font-size: 2rem;
 }
