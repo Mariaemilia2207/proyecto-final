@@ -3,62 +3,6 @@
   padding: 0px;
 }
 
-.header__nav {
-  overflow: hidden;
-}
-
-.header__nav a:hover {
-  color: white;
-}
-
-.header__navMenu--texto {
-  color: black;
-  border: black 2px solid;
-  background-color: coral;
-  padding: 0.4rem;
-  margin: 0.2rem;
-  border-radius: 10px;
-  float: left;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: x-large;
-  font-family: "Times New Roman", Times, serif;
-  -webkit-transition: color 2s;
-  transition: color 2s;
-}
-
-.header__nav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .header__nav a:not(:first-child) {
-    display: none;
-  }
-  .header__nav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .header__nav.responsive {
-    position: relative;
-  }
-  .header__nav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .header__nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,6 +22,27 @@
 
 .header__logo {
   width: 150px;
+}
+
+.header__navMenu :hover {
+  color: gold;
+}
+
+.header__navMenu--texto {
+  border: black 2px solid;
+  background-color: coral;
+  padding: 0.4rem;
+  margin: 0.2rem;
+  border-radius: 10px;
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+  -webkit-transition: color 2s;
+  transition: color 2s;
 }
 
 .header__titulo {
@@ -217,7 +182,7 @@ section {
 }
 
 .section__imagen {
-  width: 800px;
+  width: 1000px;
   margin: 30px 3px;
   border: black;
   border-style: solid;
@@ -245,7 +210,22 @@ section {
 }
 
 .footer {
-  background-color: #1b1b1b;
+  background-color: #312f2f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .footer__datos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -256,9 +236,9 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 .footer .footer__redes {
@@ -272,13 +252,13 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
 }
 
 .footer .footer__logo {
-  width: 150px;
+  width: 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -286,16 +266,22 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: initial;
-      -ms-flex-align: initial;
-          align-items: initial;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media only screen and (max-width: 550px) {
+  .footer .footer__logo {
+    display: none;
+  }
 }
 
 .footer .footer__copy {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -316,6 +302,10 @@ section {
   list-style-type: initial;
   text-align: inherit;
   color: whitesmoke;
+}
+
+.footer .footer__imagen {
+  width: 3rem;
 }
 
 .footer .footer i {

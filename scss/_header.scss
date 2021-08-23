@@ -1,15 +1,24 @@
+$mayúscula: uppercase;
+$color: white;
+
 * {
     margin: 0px;
     padding: 0px;
   }
-  .header__nav {
-    overflow: hidden;
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: space-between;
+    background-color: rgb(49, 47, 47);
   }
-  .header__nav a:hover {
-    color: white;
+ .header__logo {
+    width: 150px;
+  }
+  .header__navMenu :hover {
+    color: gold;
   }
   .header__navMenu--texto {
-    color: black;
     border: black 2px solid;
     background-color: coral;
     padding: 0.4rem;
@@ -23,43 +32,6 @@
     font-size: x-large;
     font-family: "Times New Roman", Times, serif;
     transition: color 2s;
-  }
-  .header__nav .icon {
-    display: none;
-  }
-  @media screen and (max-width: 600px) {
-    .header__nav a:not(:first-child) {
-      display: none;
-    }
-    .header__nav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    .header__nav.responsive {
-      position: relative;
-    }
-    .header__nav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .header__nav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
-  .header {
-    display: flex;
-    flex-direction: column;
-    align-items: initial;
-    justify-content: space-between;
-    background-color: rgb(49, 47, 47);
-  }
- .header__logo {
-    width: 150px;
   }
   .header__titulo {
     display: flex;
