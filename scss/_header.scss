@@ -14,6 +14,8 @@ $color: white;
   }
  .header__logo {
     width: 150px;
+    margin-left: 1rem;
+    margin-top: 2rem;
   }
   .header__navMenu :hover {
     color: gold;
@@ -24,8 +26,6 @@ $color: white;
     padding: 0.4rem;
     margin: 0.2rem;
     border-radius: 10px;
-    float: left;
-    display: block;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -60,7 +60,7 @@ $color: white;
     margin-top: 10px;
     margin-bottom: 40px;
     padding: 5px;
-    font-family: cursive;
+    font-family:'Times New Roman', Times, serif;
     font-weight: normal;
     font-style: normal;
     font-size: 20px;

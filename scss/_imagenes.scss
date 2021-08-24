@@ -1,13 +1,18 @@
 .section__imagen {
-    width: 1000px;
-    margin: 30px 3px;
-    border: black;
-    border-style: solid;
-  }
+  width: 1000px;
+  margin: 30px 3px;
+  border: black;
+  border-style: solid;
+}
+.contenedor__imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .imagenPrincipal {
-    background-image: url(../assets/img/MARTILLO.jpg);
-    height: 800px;
-    background-image: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
+  background-image: url(../assets/img/MARTILLO.jpg);
+  height: 800px;
+  background-image: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

@@ -22,6 +22,8 @@
 
 .header__logo {
   width: 150px;
+  margin-left: 1rem;
+  margin-top: 2rem;
 }
 
 .header__navMenu :hover {
@@ -34,8 +36,6 @@
   padding: 0.4rem;
   margin: 0.2rem;
   border-radius: 10px;
-  float: left;
-  display: block;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -91,7 +91,7 @@
   margin-top: 10px;
   margin-bottom: 40px;
   padding: 5px;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
   font-style: normal;
   font-size: 20px;
@@ -120,6 +120,7 @@
   font-size: 40px;
   font-family: "Times New Roman", Times, serif;
   color: #4b4646;
+  text-align: center;
 }
 
 .section__titulo3 {
@@ -128,6 +129,7 @@
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #4b4646;
+  text-align: center;
 }
 
 label {
@@ -149,7 +151,7 @@ section {
   color: white;
   font-family: "Times New Roman", Times, serif;
   font-size: large;
-  text-align: left;
+  text-align: center;
 }
 
 .section__parrafoAreas {
@@ -172,12 +174,12 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: white;
 }
 
@@ -186,6 +188,18 @@ section {
   margin: 30px 3px;
   border: black;
   border-style: solid;
+}
+
+.contenedor__imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .imagenPrincipal {
@@ -272,6 +286,8 @@ section {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  margin-left: 1rem;
+  margin-top: 2rem;
 }
 
 @media only screen and (max-width: 550px) {
