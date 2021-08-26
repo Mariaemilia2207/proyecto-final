@@ -26,10 +26,6 @@
   margin-top: 2rem;
 }
 
-.header__navMenu :hover {
-  color: gold;
-}
-
 .header__navMenu--texto {
   border: black 2px solid;
   background-color: coral;
@@ -181,6 +177,89 @@ section {
       -ms-flex-pack: center;
           justify-content: center;
   color: white;
+}
+
+.section__Clientes {
+  text-transform: initial;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  text-align: center;
+  margin: 30px 5px;
+  font-size: 25px;
+}
+
+.imagenesContenedor img {
+  width: 200px;
+  margin: 30px 3px;
+  border: black;
+  border-style: initial;
+}
+
+.imagenesContenedor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .imagenesContenedor {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (min-width: 1024px) {
+  .imagenesContenedor {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .imagenesContenedor {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2rem;
+  }
 }
 
 .section__imagen {
