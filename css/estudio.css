@@ -74,24 +74,7 @@ section ul {
   background-size: cover;
   background-attachment: fixed;
 }
-/*tablet styles*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  section img {
-    width: 400px;
-    margin: 10px 1px;
-    border: black;
-    border-style: solid;
-}
-}
-/* mobile styles*/
-@media only screen and (max-width: 400px){
-  section img {
-    width: 200px;
-    margin: 5px 0px;
-    border: black;
-    border-style: solid;
-}
-}
+
 .datosContacto {
   text-transform: initial;
   margin: 30px 5px;
