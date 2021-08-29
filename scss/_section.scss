@@ -1,7 +1,7 @@
- section {
-    padding: 40px;
-    background-color: grey;
-  
+section {
+  padding: 40px;
+  background-color: grey;
+
   .section__titulo2 {
     text-transform: $mayúscula;
     margin: 30px 5px;
@@ -22,7 +22,7 @@
     color: seagreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
- 
+
   .section__mapa {
     margin-bottom: 2rem;
   }
@@ -34,7 +34,7 @@
     text-align: center;
   }
   .section__parrafoAreas {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     color: black;
   }
   .section__cards {
@@ -50,7 +50,7 @@
     justify-content: center;
     color: $color;
   }
-  .section__Clientes{
+  .section__Clientes {
     text-transform: initial;
     color: $color;
     font-family: "Times New Roman", Times, serif;
@@ -58,9 +58,9 @@
     text-align: center;
     margin: 30px 5px;
     font-size: 25px;
-    }
+  }
   .imagenesContenedor img {
-    width: 200px;
+    width: 20rem;
     margin: 30px 3px;
     border: black;
     border-style: initial;
@@ -73,39 +73,27 @@
     align-items: center;
     gap: 2rem;
   }
-  @media only screen and(max-width: 500px) {
+  @media only screen and(max-width: 590px) {
     .imagenesContenedor img {
-      display: none;
-      
+      width: 15rem;
     }
   }
-  @media only screen and(max-width: 500px) {
+  @media only screen and(max-width: 590px) {
+    .section__Clientes {
+      display: none;
+    }
+  }
+  @media only screen and(max-width: 590px) {
     .imagenesContenedor {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      
     }
   }
- /* @media only screen and(min-width: 301px) and (min-width: 1024px) {
-    .imagenesContenedor {
-      display: grid;
-      grid-template-columns: auto auto;
-      grid-template-rows: auto auto;
-      justify-content: space-around;
-      align-items: center;
-      gap: 2rem;
+  @media only screen and(min-width: 591px) and (max-width: 850px) {
+    .imagenesContenedor img {
+      width: 15rem;
     }
   }
-  @media only screen and(min-width: 1200px) {
-    .imagenesContenedor {
-      display: grid;
-      grid-template-columns: auto auto;
-      grid-template-rows: auto auto;
-      justify-content: space-around;
-      align-items: center;
-      gap: 2rem;
-    }
-  }*/
 }
